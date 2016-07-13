@@ -3,7 +3,6 @@
 
 namespace tests\Vice\LaravelFractal;
 
-use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
 use League\Fractal\Manager;
@@ -12,6 +11,7 @@ use League\Fractal\TransformerAbstract;
 use Mockery as m;
 use Vice\LaravelFractal\FractalResponseFactory;
 use Vice\LaravelFractal\FractalService;
+use Vice\LaravelFractal\ResponseFactory;
 
 class FractalResponseFactoryTest extends TestCase
 {

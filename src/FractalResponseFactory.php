@@ -5,7 +5,6 @@ namespace Vice\LaravelFractal;
 
 use ArrayAccess;
 use Closure;
-use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Http\Response;
 use Illuminate\Pagination\LengthAwarePaginator;
 use League\Fractal\Scope;
