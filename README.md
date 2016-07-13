@@ -1,5 +1,7 @@
 # Another Fractal Service Provider for Laravel 5 and Lumen
 
+[![Build Status](https://travis-ci.org/VICEMedia/laravel-fractal.svg?branch=master)](https://travis-ci.org/VICEMedia/laravel-fractal)
+
 Fractal lets you present API data in a consistent way, by acting as an anti-corruption layer between your frontend and backend.
 
 [Read up on Fractal here.](http://fractal.thephpleague.com/)
