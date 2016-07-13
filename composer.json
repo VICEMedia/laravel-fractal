@@ -1,6 +1,7 @@
 {
     "name": "vice/laravel-fractal",
     "description": "Fractal helpers for Laravel 5",
+    "license": "MIT",
     "authors": [
         {
             "name": "Max Brokman",
