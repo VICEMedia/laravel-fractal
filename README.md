@@ -10,24 +10,13 @@ Fractal lets you present API data in a consistent way, by acting as an anti-corr
 
 ## Installation
 
-Add the following to your `composer.json`
-
-```json
-"repositories": [
-    {
-        "type": "vcs",
-        "url": "git@github.com:VICEMedia/laravel-fractal.git"
-    },
-],
-```
-
-And then require this package
+Require this package
 
 ```
 composer require vice/laravel-fractal
 ```
 
-Finally add the following to the service providers in `app.php`
+And then add the following to the service providers in `app.php`
 
 ```
 Vice\LaravelFractal\FractalServiceProvider::class,
